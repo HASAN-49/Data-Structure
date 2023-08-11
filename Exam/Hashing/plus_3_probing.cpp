@@ -23,7 +23,7 @@ void Insert(int a[], char c[], int n, int k) {
     for(int i = 0; i < n; i++) {
         int x;
         cin >> x;
-        int m = x % 11;
+        int m = x % k;
         while(c[m] != 'f') {
             m += 3;
             if(m >= k) m -= k;
