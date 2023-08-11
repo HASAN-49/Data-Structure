@@ -20,7 +20,7 @@ void pop(int stk[]) {
         cout << "Stack Underflow!!!\n";
         return;
     }
-    int item = stk[top];
+    int item = stk[top-1];
     top--;
 }
 
